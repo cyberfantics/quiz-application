@@ -5,7 +5,11 @@ class QuizApp:
     def startup(self):
         # Print the Greeting Message
         self.gretting()
-    
+        self.username = input('What is your Name? ')
+        print(f'Welcome, {self.username}')
+        print()
+
+
     def gretting(self):
         print('''
         -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
@@ -14,6 +18,17 @@ class QuizApp:
 ''')
         print()
 
+    def menu_header(self):
+        print(f'''
+        -------------------------------------------
+        Please Make A Selection:
+        (M): Repeat this Menu
+        (L): List quizzes
+        (T): Take a Quiz
+        (E): Exit a Quiz
+               
+''')
+        
     def menu_error(self):
         print("That's not a valid Sellection, Please Try Again")
         
@@ -30,7 +45,42 @@ class QuizApp:
 
         # Run untill the user exit the app
         selection = ''
+        
+        # Run the Program
+        while True:
+            selection = input("Selection? ").capitalize()
 
+            if len(selection) == 0:
+                self.menu_error()
+                continue
+
+            match selection[0]:
+                case 'E':
+                    self.goodbye()
+                    break
+
+                case 'M':
+                    self.menu_header()
+                    continue
+                    
+                case 'L':
+                    print("\nAvailable Quizes Are")
+                    # TODO list the quiz letter
+                    print('__________________________')
+                    continue
+
+                case 'T':
+                    try:
+                        quizNum = int(input("Enter the Quiz Num "))
+                        print(f"You have selected the quiz {quizNum}")
+                    except Exception as e:
+                        self.menu_error()
+                        print(f'Error Occured: {e}')
+                    
+                    continue
+                
+                case _:
+                    self.menu_error() 
         # Entry Point of the program
     def run(self):
         self.startup()
