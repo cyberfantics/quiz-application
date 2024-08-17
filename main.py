@@ -159,7 +159,58 @@ class Answer():
         self.text = ''
         self.name = ''
 
+
+# Implement Quiz Class
+class Quiz():
+    def __init__(self):
+        # TODO: define the quiz property
+        self.name = ''
+        self.description = ''
+        self.questions = []
+        self.score = 0
+        self.correct_count = 0
+        self.total_point = 0
+
+    def print_header(self):
+        print(f'''
+        ----------------------------------------------------
+               Quiz Name: {self.name}
+        Quiz Description: {self.description}
+               Questions: {len(self.questions)}
+            Total Points: {self.total_point}
+        ----------------------------------------------------
+    ''')
+
+
+    def print_result(self):
+        print('''
+        Print The Result
+        ''')
+    
+    def take_quiz(self):
+        # TODO: INITILIZE THE QUIZ STATE
+        self.score = 0
+        self.correct_count = 0
+        for q in self.questions:
+            q.is_correct = False
         
+        # TODO: PRINT THE HEADER
+        self.print_header()
+
+        # TODO: EXECUTE EACH QUESTION AND RECORD THE RESULT
+        for q in self.questions:
+            q.ask()
+            if q.is_correct:
+                self.correct_count += 1
+                self.score += q.points
+        print('-----------------------------------\n')
+        # TODO: RETURN THE RESULT
+
+        return (self.score, self.correct_count, self.total_point)
+        
+
+
+
 if __name__ == "__main__":
     app = QuizApp()
     app.run()
