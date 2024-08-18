@@ -52,7 +52,7 @@ class QuizManager:
 
     # TODO: Print the result of most recently taken quizzes
     def print_results(self):
-        pass
+        self.thequiz.print_result(self.quiz_taker)
 
     # TODO: Save the result of most recently taken quiz to a file.
     def save_result(self):

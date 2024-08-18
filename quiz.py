@@ -1,4 +1,4 @@
-
+import datetime
 # Implement Question Class
 class Question:
     def __init__(self):
@@ -95,10 +95,13 @@ class Quiz():
     ''')
 
 
-    def print_result(self):
-        print('''
-        Print The Result
-        ''')
+    def print_result(self, quiztaker):
+        print(f'''
+            RESULTS FOR {quiztaker}
+            Date: {datetime.datetime.today()}
+            Questions: {self.correct_count} OUT of {len(self.questions)} correct
+            SCORE: {self.score} points out of possible {self.total_point} points        
+''')
     
     def take_quiz(self):
         # TODO: INITILIZE THE QUIZ STATE
