@@ -46,7 +46,9 @@ class QuizManager:
 
     # TODO: Start the given quiz for the user and return the result
     def take_quiz(self, quizid, username):
-        pass
+        self.quiz_taker = username
+        self.thequiz = self.quizzes[quizid]
+        self.results = self.thequiz.take_quiz()
 
     # TODO: Print the result of most recently taken quizzes
     def print_results(self):
