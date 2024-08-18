@@ -15,6 +15,7 @@ class QuizParser(xml.sax.ContentHandler):
 
     def __init__(self):
         self.new_quiz = Quiz()
+        self.new_quiz.description = ''  # Ensure description is initialized
         self._parse_state = QuizParserState.IDLE
         self._current_question = None
         self._current_answer = None
@@ -40,7 +41,6 @@ class QuizParser(xml.sax.ContentHandler):
 
         elif tagname == "Question":
             self._parse_state = QuizParserState.PARSE_QUESTION
-
             if attrs.get('type') == 'multichoice':
                 self._current_question = QuestionMCQs()
             elif attrs.get('type') == 'tf':
@@ -48,7 +48,7 @@ class QuizParser(xml.sax.ContentHandler):
             try:
                 self._current_question.points = int(attrs.get('points', 0))
             except Exception as e:
-                print(e)
+                print(f"Error parsing points: {e}")
             self.new_quiz.total_point += self._current_question.points
 
         elif tagname == "QuestionText":
