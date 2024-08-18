@@ -45,8 +45,10 @@ class QuizParser(xml.sax.ContentHandler):
                 self._current_question = QuestionMCQs()
             elif attrs.get('type') == 'tf':
                 self._current_question = QuestionTF()
-
-            self._current_question.points = int(attrs.get('points', 0))
+            try:
+                self._current_question.points = int(attrs.get('points', 0))
+            except Exception as e:
+                print(e)
             self.new_quiz.total_point += self._current_question.points
 
         elif tagname == "QuestionText":

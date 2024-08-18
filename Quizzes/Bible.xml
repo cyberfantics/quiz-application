@@ -1,0 +1,208 @@
+<QuizML name="Bible Knowledge Quiz">
+    <Description>
+        This quiz tests your knowledge on various aspects of the Bible, including its characters, books, and teachings.
+    </Description>
+
+    <!-- Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which book of the Bible begins with "In the beginning God created the heavens and the earth"? </QuestionText>
+        <Answer name='1'>Exodus</Answer>
+        <Answer name='2'>Genesis</Answer>
+        <Answer name='3'>Leviticus</Answer>
+        <Answer name='4'>Numbers</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Who led the Israelites out of Egypt? </QuestionText>
+        <Answer name='1'>Aaron</Answer>
+        <Answer name='2'>Joshua</Answer>
+        <Answer name='3'>Moses</Answer>
+        <Answer name='4'>David</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which king of Israel was known for his wisdom? </QuestionText>
+        <Answer name='1'>Solomon</Answer>
+        <Answer name='2'>Saul</Answer>
+        <Answer name='3'>David</Answer>
+        <Answer name='4'>Hezekiah</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What are the first four books of the New Testament known as? </QuestionText>
+        <Answer name='1'>The Epistles</Answer>
+        <Answer name='2'>The Prophets</Answer>
+        <Answer name='3'>The Acts</Answer>
+        <Answer name='4'>The Gospels</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which of the following is not a book in the Old Testament? </QuestionText>
+        <Answer name='1'>Job</Answer>
+        <Answer name='2'>Romans</Answer>
+        <Answer name='3'>Psalms</Answer>
+        <Answer name='4'>Proverbs</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Who was swallowed by a great fish after trying to flee from God? </QuestionText>
+        <Answer name='1'>Jonah</Answer>
+        <Answer name='2'>Elijah</Answer>
+        <Answer name='3'>Daniel</Answer>
+        <Answer name='4'>Noah</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Where was Jesus born? </QuestionText>
+        <Answer name='1'>Nazareth</Answer>
+        <Answer name='2'>Jerusalem</Answer>
+        <Answer name='3'>Bethlehem</Answer>
+        <Answer name='4'>Capernaum</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> How many disciples did Jesus have? </QuestionText>
+        <Answer name='1'>10</Answer>
+        <Answer name='2'>8</Answer>
+        <Answer name='3'>14</Answer>
+        <Answer name='4'>12</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What was the first miracle performed by Jesus according to the Bible? </QuestionText>
+        <Answer name='1'>Turning water into wine</Answer>
+        <Answer name='2'>Healing a blind man</Answer>
+        <Answer name='3'>Walking on water</Answer>
+        <Answer name='4'>Feeding 5,000 people</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the last book of the New Testament? </QuestionText>
+        <Answer name='1'>Jude</Answer>
+        <Answer name='2'>Revelation</Answer>
+        <Answer name='3'>Hebrews</Answer>
+        <Answer name='4'>James</Answer>
+    </Question>
+
+    <!-- True/False Questions -->
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The Ten Commandments were given to Moses on Mount Sinai. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> The Bible was originally written in English. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> David was the author of many of the Psalms. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The book of Acts describes the early church after Jesus' resurrection. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> Jesus was baptized by John the Baptist in the Jordan River. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The New Testament contains 27 books. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> Paul was one of the original twelve disciples of Jesus. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The book of Genesis contains the story of Noah's Ark. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> The book of Esther is in the New Testament. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='t'> The Lord's Prayer is found in the Gospels of Matthew and Luke. </QuestionText>
+    </Question>
+
+    <!-- Additional Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Who betrayed Jesus to the religious leaders for 30 pieces of silver? </QuestionText>
+        <Answer name='1'>Judas Iscariot</Answer>
+        <Answer name='2'>Peter</Answer>
+        <Answer name='3'>Thomas</Answer>
+        <Answer name='4'>James</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What did God create on the first day according to Genesis? </QuestionText>
+        <Answer name='1'>The sky</Answer>
+        <Answer name='2'>The land</Answer>
+        <Answer name='3'>Light</Answer>
+        <Answer name='4'>Plants</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Who interpreted King Nebuchadnezzar’s dream in the book of Daniel? </QuestionText>
+        <Answer name='1'>Joseph</Answer>
+        <Answer name='2'>Elijah</Answer>
+        <Answer name='3'>Isaiah</Answer>
+        <Answer name='4'>Daniel</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which book of the Bible focuses on the life and teachings of Jesus? </QuestionText>
+        <Answer name='1'>The Gospels</Answer>
+        <Answer name='2'>Psalms</Answer>
+        <Answer name='3'>Proverbs</Answer>
+        <Answer name='4'>Acts</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which New Testament book is a letter to the church in Rome? </QuestionText>
+        <Answer name='1'>Hebrews</Answer>
+        <Answer name='2'>Romans</Answer>
+        <Answer name='3'>Ephesians</Answer>
+        <Answer name='4'>Corinthians</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which of the following is the longest book in the Bible? </QuestionText>
+        <Answer name='1'>Isaiah</Answer>
+        <Answer name='2'>Exodus</Answer>
+        <Answer name='3'>Psalms</Answer>
+        <Answer name='4'>Jeremiah</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What is the main theme of the book of Revelation? </QuestionText>
+        <Answer name='1'>The end times and the return of Christ</Answer>
+        <Answer name='2'>The life of Paul</Answer>
+        <Answer name='3'>The early church</Answer>
+        <Answer name='4'>The creation of the world</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which of the following is not one of the Ten Commandments? </QuestionText>
+        <Answer name='1'>Do not steal</Answer>
+        <Answer name='2'>Love your neighbor as yourself</Answer>
+        <Answer name='3'>Do not commit adultery</Answer>
+        <Answer name='4'>Honor your father and mother</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> How many plagues did God send upon Egypt in the book of Exodus? </QuestionText>
+        <Answer name='1'>5</Answer>
+        <Answer name='2'>7</Answer>
+        <Answer name='3'>9</Answer>
+        <Answer name='4'>10</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What was the occupation of the apostle Peter before following Jesus? </QuestionText>
+        <Answer name='1'>Tax collector</Answer>
+        <Answer name='2'>Carpenter</Answer>
+        <Answer name='3'>Fisherman</Answer>
+        <Answer name='4'>Shepherd</Answer>
+    </Question>
+</QuizML>

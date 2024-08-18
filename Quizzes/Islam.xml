@@ -1,0 +1,209 @@
+<QuizML name="Islamic Knowledge Quiz">
+    <Description>
+        This quiz tests your knowledge on various aspects of Islam, including its teachings, practices, history, and important figures.
+    </Description>
+
+    <!-- Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What is the holy book of Islam? </QuestionText>
+        <Answer name='1'>Torah</Answer>
+        <Answer name='2'>Bible</Answer>
+        <Answer name='3'>Vedas</Answer>
+        <Answer name='4'>Quran</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Who is considered the last prophet in Islam? </QuestionText>
+        <Answer name='1'>Moses</Answer>
+        <Answer name='2'>Muhammad</Answer>
+        <Answer name='3'>Jesus</Answer>
+        <Answer name='4'>Abraham</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> How many times a day are Muslims required to pray? </QuestionText>
+        <Answer name='1'>Five</Answer>
+        <Answer name='2'>Three</Answer>
+        <Answer name='3'>Seven</Answer>
+        <Answer name='4'>Six</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What is the Arabic word for God in Islam? </QuestionText>
+        <Answer name='1'>Jehovah</Answer>
+        <Answer name='2'>Yahweh</Answer>
+        <Answer name='3'>Allah</Answer>
+        <Answer name='4'>Elohim</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the significance of the Kaaba in Islam? </QuestionText>
+        <Answer name='1'>It is the place where Muhammad was born</Answer>
+        <Answer name='2'>It is the direction Muslims face during prayer</Answer>
+        <Answer name='3'>It is where the Quran was revealed</Answer>
+        <Answer name='4'>It is where Prophet Muhammad ascended to heaven</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which of the following is one of the Five Pillars of Islam? </QuestionText>
+        <Answer name='1'>Jihad</Answer>
+        <Answer name='2'>Hijra</Answer>
+        <Answer name='3'>Sharia</Answer>
+        <Answer name='4'>Zakat</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> During which month do Muslims fast from dawn to sunset? </QuestionText>
+        <Answer name='1'>Muharram</Answer>
+        <Answer name='2'>Rajab</Answer>
+        <Answer name='3'>Ramadan</Answer>
+        <Answer name='4'>Shawwal</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What is the declaration of faith in Islam? </QuestionText>
+        <Answer name='1'>Shahada</Answer>
+        <Answer name='2'>Salah</Answer>
+        <Answer name='3'>Hajj</Answer>
+        <Answer name='4'>Sawm</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> How many chapters (Surahs) are there in the Quran? </QuestionText>
+        <Answer name='1'>100</Answer>
+        <Answer name='2'>99</Answer>
+        <Answer name='3'>124</Answer>
+        <Answer name='4'>114</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Who was the first caliph after the death of Prophet Muhammad? </QuestionText>
+        <Answer name='1'>Umar ibn al-Khattab</Answer>
+        <Answer name='2'>Abu Bakr</Answer>
+        <Answer name='3'>Ali ibn Abi Talib</Answer>
+        <Answer name='4'>Uthman ibn Affan</Answer>
+    </Question>
+
+    <!-- True/False Questions -->
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The Quran was revealed to Prophet Muhammad over a period of 23 years. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> Muslims pray facing the city of Medina. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='t'> Hajj is a pilgrimage that every Muslim must try to undertake at least once in their lifetime. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> Zakat is a voluntary charity given by Muslims whenever they wish. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='t'> Islam is one of the three Abrahamic religions. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> The first verse revealed to Prophet Muhammad was "Say: He is Allah, the One." </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='t'> Muslims believe in all prophets who were sent by God, including Adam, Moses, and Jesus. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> Eid al-Fitr marks the end of the Islamic pilgrimage, Hajj. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='15'>
+        <QuestionText answer='f'> The Quran was revealed in the city of Medina. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='t'> The Hadiths are sayings and actions of Prophet Muhammad. </QuestionText>
+    </Question>
+
+    <!-- Additional Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What is the Arabic term for the community of Muslims worldwide? </QuestionText>
+        <Answer name='1'>Ummah</Answer>
+        <Answer name='2'>Jamaat</Answer>
+        <Answer name='3'>Khilafah</Answer>
+        <Answer name='4'>Shura</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What was the name of Prophet Muhammad’s first wife? </QuestionText>
+        <Answer name='1'>Aisha</Answer>
+        <Answer name='2'>Khadijah</Answer>
+        <Answer name='3'>Fatimah</Answer>
+        <Answer name='4'>Hafsa</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What is the term for the Islamic law derived from the Quran and Hadith? </QuestionText>
+        <Answer name='1'>Fiqh</Answer>
+        <Answer name='2'>Ijma</Answer>
+        <Answer name='3'>Qiyas</Answer>
+        <Answer name='4'>Sharia</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which angel is believed to have revealed the Quran to Prophet Muhammad? </QuestionText>
+        <Answer name='1'>Mikail</Answer>
+        <Answer name='2'>Israfil</Answer>
+        <Answer name='3'>Jibril (Gabriel)</Answer>
+        <Answer name='4'>Azrael</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which city is considered the holiest in Islam? </QuestionText>
+        <Answer name='1'>Mecca</Answer>
+        <Answer name='2'>Jerusalem</Answer>
+        <Answer name='3'>Medina</Answer>
+        <Answer name='4'>Cairo</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Who was the mother of Prophet Jesus (Isa) according to Islam? </QuestionText>
+        <Answer name='1'>Hagar</Answer>
+        <Answer name='2'>Maryam (Mary)</Answer>
+        <Answer name='3'>Sarah</Answer>
+        <Answer name='4'>Asiyah</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which of the following is an obligatory charity that Muslims must give? </QuestionText>
+        <Answer name='1'>Sadaqah</Answer>
+        <Answer name='2'>Fitrah</Answer>
+        <Answer name='3'>Nafl</Answer>
+        <Answer name='4'>Zakat</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What is the Islamic term for struggle or effort in the way of God? </QuestionText>
+        <Answer name='1'>Hijra</Answer>
+        <Answer name='2'>Shura</Answer>
+        <Answer name='3'>Jihad</Answer>
+        <Answer name='4'>Tawheed</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the first Surah of the Quran? </QuestionText>
+        <Answer name='1'>Al-Baqarah</Answer>
+        <Answer name='2'>Al-Fatiha</Answer>
+        <Answer name='3'>Al-Ikhlas</Answer>
+        <Answer name='4'>An-Nas</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> In which city did Prophet Muhammad pass away? </QuestionText>
+        <Answer name='1'>Mecca</Answer>
+        <Answer name='2'>Jerusalem</Answer>
+        <Answer name='3'>Taif</Answer>
+        <Answer name='4'>Medina</Answer>
+    </Question>
+
+</QuizML>

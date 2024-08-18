@@ -1,0 +1,194 @@
+<QuizML name="Advanced Python Programming Quiz">
+    <Description>
+        This quiz tests your knowledge on advanced Python programming concepts including object-oriented programming, decorators, generators, concurrency, and more.
+    </Description>
+
+    <!-- Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What is the purpose of the `__init__` method in Python classes? </QuestionText>
+        <Answer name='1'>It initializes the class itself</Answer>
+        <Answer name='2'>It finalizes the object after its creation</Answer>
+        <Answer name='3'>It is called when an object is deleted</Answer>
+        <Answer name='4'>It initializes the object's attributes</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which method would you override to make an object iterable? </QuestionText>
+        <Answer name='1'>__call__</Answer>
+        <Answer name='2'>__len__</Answer>
+        <Answer name='3'>__iter__</Answer>
+        <Answer name='4'>__getitem__</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What does the `@staticmethod` decorator do in Python? </QuestionText>
+        <Answer name='1'>It makes a method private</Answer>
+        <Answer name='2'>It defines a method that doesn't access or modify the class state</Answer>
+        <Answer name='3'>It defines a method that cannot be overridden</Answer>
+        <Answer name='4'>It defines a method that can only be called from the class, not instances</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What is the result of executing the following code?
+        ```python
+        class MyClass:
+            def __call__(self):
+                return 'Called!'
+        
+        obj = MyClass()
+        result = obj()
+        ```
+        </QuestionText>
+        <Answer name='1'>'Called!'</Answer>
+        <Answer name='2'>None</Answer>
+        <Answer name='3'>Error: object is not callable</Answer>
+        <Answer name='4'>'MyClass'</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which of the following statements about Python's `super()` function is true? </QuestionText>
+        <Answer name='1'>It can only be used in single inheritance</Answer>
+        <Answer name='2'>It only works with classes that explicitly call `super()`</Answer>
+        <Answer name='3'>It is used to access private methods of a superclass</Answer>
+        <Answer name='4'>It is used to call a method from a superclass in a derived class</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What is a generator in Python? </QuestionText>
+        <Answer name='1'>A function that returns a list</Answer>
+        <Answer name='2'>A class that implements the iterator protocol</Answer>
+        <Answer name='3'>A function that yields a sequence of values</Answer>
+        <Answer name='4'>A function that iterates over a list</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the output of the following code?
+        ```python
+        def func(x=[]):
+            x.append(1)
+            return x
+
+        print(func())
+        print(func())
+        ```
+        </QuestionText>
+        <Answer name='1'>[1] [1]</Answer>
+        <Answer name='2'>[1] [1, 1]</Answer>
+        <Answer name='3'>Error: mutable default argument</Answer>
+        <Answer name='4'>[] []</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which Python module can be used to serialize and deserialize Python objects? </QuestionText>
+        <Answer name='1'>pickle</Answer>
+        <Answer name='2'>json</Answer>
+        <Answer name='3'>marshal</Answer>
+        <Answer name='4'>shelve</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What does the `GIL` stand for in Python? </QuestionText>
+        <Answer name='1'>Global Inheritance Lock</Answer>
+        <Answer name='2'>Global Instance Lock</Answer>
+        <Answer name='3'>General Interpreter Lock</Answer>
+        <Answer name='4'>Global Interpreter Lock</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> How do you access the parent class of a class in Python? </QuestionText>
+        <Answer name='1'>By using the `baseclass` attribute</Answer>
+        <Answer name='2'>By directly accessing the `__super__` attribute</Answer>
+        <Answer name='3'>By using the `super()` function</Answer>
+        <Answer name='4'>By using the `parent()` function</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is a context manager in Python? </QuestionText>
+        <Answer name='1'>A tool to handle exceptions</Answer>
+        <Answer name='2'>An object that defines `__enter__` and `__exit__` methods</Answer>
+        <Answer name='3'>A function that yields values</Answer>
+        <Answer name='4'>A mechanism to manage global variables</Answer>
+    </Question>
+
+    <!-- True/False Questions -->
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> Python supports method overloading by default. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> You can use a metaclass to control class creation in Python. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> Python’s `with` statement is used to ensure that resources are properly released after use. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> The `yield` keyword is used to define a generator function in Python. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='f'> In Python, all variables are passed by reference. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> You can use decorators to modify the behavior of a function or method in Python. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='f'> The `assert` statement in Python is used for logging information. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> Python’s `asyncio` module is used for asynchronous programming. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='f'> In Python, `@property` can only be used to create read-only attributes. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='f'> The `__new__` method is automatically called after `__init__` in Python. </QuestionText>
+    </Question>
+
+    <!-- Additional Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which method would you use to explicitly release resources in a Python class? </QuestionText>
+        <Answer name='1'>__exit__</Answer>
+        <Answer name='2'>__del__</Answer>
+        <Answer name='3'>__close__</Answer>
+        <Answer name='4'>__finalize__</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> What is the primary advantage of using a generator in Python? </QuestionText>
+        <Answer name='1'>Memory efficiency</Answer>
+        <Answer name='2'>Faster execution</Answer>
+        <Answer name='3'>Simpler code</Answer>
+        <Answer name='4'>Thread safety</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which of the following is an example of a metaprogramming technique in Python? </QuestionText>
+        <Answer name='1'>Using lambda functions</Answer>
+        <Answer name='2'>Writing recursive functions</Answer>
+        <Answer name='3'>Using decorators to modify function behavior</Answer>
+        <Answer name='4'>Using the `with` statement</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the primary use of the `multiprocessing` module in Python? </QuestionText>
+        <Answer name='1'>To handle multiple threads within a process</Answer>
+        <Answer name='2'>To create separate processes that run concurrently</Answer>
+        <Answer name='3'>To handle I/O-bound operations</Answer>
+        <Answer name='4'>To improve the performance of CPU-bound tasks</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which Python built-in function can be used to check if all elements in an iterable are true? </QuestionText>
+        <Answer name='1'>any()</Answer>
+        <Answer name='2'>iter()</Answer>
+        <Answer name='3'>filter()</Answer>
+        <Answer name='4'>all()</Answer>
+    </Question>
+</QuizML>

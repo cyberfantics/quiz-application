@@ -1,0 +1,208 @@
+<QuizML name="Programming Quiz">
+    <Description>
+        This quiz tests your knowledge on various programming concepts and languages.
+    </Description>
+
+    <!-- Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which of the following is a Python data type? </QuestionText>
+        <Answer name='1'>List</Answer>
+        <Answer name='2'>Array</Answer>
+        <Answer name='3'>Map</Answer>
+        <Answer name='4'>Tree</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What does HTML stand for? </QuestionText>
+        <Answer name='1'>Hyper Text Module Language</Answer>
+        <Answer name='2'>High Text Markup Language</Answer>
+        <Answer name='3'>Hyper Text Markup Language</Answer>
+        <Answer name='4'>Hyperlinks Text Markup Language</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> In Python, which keyword is used to define a function? </QuestionText>
+        <Answer name='1'>func</Answer>
+        <Answer name='2'>def</Answer>
+        <Answer name='3'>function</Answer>
+        <Answer name='4'>define</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What is the correct syntax to output "Hello World" in Java? </QuestionText>
+        <Answer name='1'>System.out.println("Hello World");</Answer>
+        <Answer name='2'>echo("Hello World");</Answer>
+        <Answer name='3'>print("Hello World");</Answer>
+        <Answer name='4'>System.out.print("Hello World");</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which of the following is a loop structure in C++? </QuestionText>
+        <Answer name='1'>for</Answer>
+        <Answer name='2'>loop</Answer>
+        <Answer name='3'>repeat</Answer>
+        <Answer name='4'>iterate</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What is the main purpose of a constructor in a class? </QuestionText>
+        <Answer name='1'>To create static methods</Answer>
+        <Answer name='2'>To destroy an object</Answer>
+        <Answer name='3'>To initialize an object</Answer>
+        <Answer name='4'>To declare a class</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which of the following is a valid variable name in Python? </QuestionText>
+        <Answer name='1'>my_var</Answer>
+        <Answer name='2'>2var</Answer>
+        <Answer name='3'>var#name</Answer>
+        <Answer name='4'>var-name</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> What is the correct file extension for Python files? </QuestionText>
+        <Answer name='1'>.pyth</Answer>
+        <Answer name='2'>.pt</Answer>
+        <Answer name='3'>.pth</Answer>
+        <Answer name='4'>.py</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> Which method can be used to find the length of a string in JavaScript? </QuestionText>
+        <Answer name='1'>getLength()</Answer>
+        <Answer name='2'>length()</Answer>
+        <Answer name='3'>size()</Answer>
+        <Answer name='4'>count()</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which SQL command is used to retrieve data from a database? </QuestionText>
+        <Answer name='1'>SELECT</Answer>
+        <Answer name='2'>RETRIEVE</Answer>
+        <Answer name='3'>GET</Answer>
+        <Answer name='4'>EXTRACT</Answer>
+    </Question>
+
+    <!-- True/False Questions -->
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> In Python, lists are immutable. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> Java is a statically typed programming language. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> HTML is a markup language used to create the structure of web pages. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> In SQL, the WHERE clause is used to sort the result-set. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> In Python, the 'def' keyword is used to define a function. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='f'> CSS stands for Cascading Style Selector. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> The ++ operator is not available in Python. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='5'>
+        <QuestionText answer='t'> An interface in Java can contain abstract methods only. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='20'>
+        <QuestionText answer='f'> In JavaScript, 'var' and 'let' keywords are identical in scope. </QuestionText>
+    </Question>
+
+    <Question type='tf' points='25'>
+        <QuestionText answer='t'> Git is a version control system used for tracking changes in source code. </QuestionText>
+    </Question>
+
+    <!-- Additional Multiple Choice Questions -->
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What is the output of 3 + 2 * 2 in Python? </QuestionText>
+        <Answer name='1'>10</Answer>
+        <Answer name='2'>7</Answer>
+        <Answer name='3'>9</Answer>
+        <Answer name='4'>11</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> Which keyword is used to return a value inside a function in Python? </QuestionText>
+        <Answer name='1'>return</Answer>
+        <Answer name='2'>yield</Answer>
+        <Answer name='3'>output</Answer>
+        <Answer name='4'>send</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which of the following is not a JavaScript data type? </QuestionText>
+        <Answer name='1'>String</Answer>
+        <Answer name='2'>Boolean</Answer>
+        <Answer name='3'>Character</Answer>
+        <Answer name='4'>Number</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which Python library is used for data manipulation and analysis? </QuestionText>
+        <Answer name='1'>NumPy</Answer>
+        <Answer name='2'>Matplotlib</Answer>
+        <Answer name='3'>Scikit-learn</Answer>
+        <Answer name='4'>Pandas</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> What does the SQL command 'DROP TABLE' do? </QuestionText>
+        <Answer name='1'>Deletes all records from a table</Answer>
+        <Answer name='2'>Deletes the table structure along with its data</Answer>
+        <Answer name='3'>Deletes the database</Answer>
+        <Answer name='4'>Deletes a specific column from a table</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='1'> In which programming language is the concept of pointers primarily used? </QuestionText>
+        <Answer name='1'>C</Answer>
+        <Answer name='2'>Java</Answer>
+        <Answer name='3'>Python</Answer>
+        <Answer name='4'>JavaScript</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> What does the 'self' keyword in Python represent? </QuestionText>
+        <Answer name='1'>A global variable</Answer>
+        <Answer name='2'>A reference to the parent class</Answer>
+        <Answer name='3'>A reference to the current instance of the class</Answer>
+        <Answer name='4'>A method</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='4'> Which method is used to add an element to the end of a list in Python? </QuestionText>
+        <Answer name='1'>add()</Answer>
+        <Answer name='2'>insert()</Answer>
+        <Answer name='3'>appendFirst()</Answer>
+        <Answer name='4'>append()</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='2'> In HTML, which attribute is used to define inline styles? </QuestionText>
+        <Answer name='1'>class</Answer>
+        <Answer name='2'>style</Answer>
+        <Answer name='3'>font</Answer>
+        <Answer name='4'>styles</Answer>
+    </Question>
+
+    <Question type='multichoice' points='10'>
+        <QuestionText answer='3'> Which Python function is used to open a file? </QuestionText>
+        <Answer name='1'>openfile()</Answer>
+        <Answer name='2'>fileopen()</Answer>
+        <Answer name='3'>open()</Answer>
+        <Answer name='4'>file()</Answer>
+    </Question>
+</QuizML>
