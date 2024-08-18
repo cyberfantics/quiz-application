@@ -90,14 +90,5 @@ class QuizParser(xml.sax.ContentHandler):
             self._current_answer.text += chars
 
 
-if __name__ == "__main__":
-    app = QuizParser()
-    qz = app.parse_quiz('Quizzes/myQuiz.xml')
-    print(qz.name)
-    print(qz.description)
-    print(len(qz.questions))
-    
-    print(qz.total_point)
-    for q in qz.questions:
-        print(q.text)
+
     
