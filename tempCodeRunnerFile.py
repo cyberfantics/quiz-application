@@ -81,6 +81,13 @@ class QuizApp:
                         # TODO: Start the quiz
                         self.qm.take_quiz(quizNum,self.username)
                         self.qm.print_results()
+
+                        # TODO: Ask user if they want to save the result
+                        dosave = input(f'Save the result. (y/n) ')
+                        dosave = dosave.capitalize()
+
+                        if dosave[0] == 'Y' and len(dosave)>0:
+                            self.qm.save_result()
                     except Exception as e:
                         self.menu_error()
                         print(f'Error Occured: {e}')

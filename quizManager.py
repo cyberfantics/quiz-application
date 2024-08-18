@@ -56,7 +56,16 @@ class QuizManager:
 
     # TODO: Save the result of most recently taken quiz to a file.
     def save_result(self):
-        pass 
+        today = datetime.datetime.today()
+        file_name = f'Quiz_{today.year}_{today.month}_{today.day}.txt'
+
+        count = 1
+        while (os.path.exists(file_name)):
+            file_name = f'Quiz_{today.year}_{today.month}_{today.day}_{count}.txt'
+            count += 1
+
+        with open(file_name, 'w') as file:
+            self.thequiz.print_result(self.quiz_taker, file)
 
 
 if __name__=="__main__":
